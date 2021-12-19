@@ -1,0 +1,10 @@
+Se requiere tailwindcss postcss@latest y autoprefixer :
+npx tailwindcss init-> dentro de la raiz si no se llega a ver el front del proyecto.
+
+Creando modal con componentes en vue:
+https://www.digitalocean.com/community/tutorials/vuejs-vue-modal-component
+
+Documentacion y consultas de las API's:
+https://www.theaudiodb.com/api_guide.php
+https://api.lyrics.ovh/v1/Coldplay/Adventure%20of%20a%20Lifetime
+https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song
