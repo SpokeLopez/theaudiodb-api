@@ -1,0 +1,5 @@
+### GET Album o Artista
+GET https://www.theaudiodb.com/api/v1/json/2/search.php?s= 
+
+### GET letra de cancion
+GET https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime
