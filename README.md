@@ -1,6 +1,6 @@
-# Project Title
+# The audiodb API
 
-[The audiodb API](https://practical-yonath-c56278.netlify.app/)
+[Ver proyecto online](https://practical-yonath-c56278.netlify.app/)
 
 ## Description
 
@@ -23,7 +23,7 @@ Proyecto para obtener los datos de artistas y bandas con el consumo de APIS exte
 * Ejecutar los comandos en una terminal
 * Ejecutar un servidor local
 
-### Executing program
+### Ejecutando programa
 
 ```
 npm install
