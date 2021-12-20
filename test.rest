@@ -3,3 +3,4 @@ GET https://www.theaudiodb.com/api/v1/json/2/search.php?s=
 
 ### GET letra de cancion
 GET https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime
+GET https://api.lyrics.ovh/v1/Coldplay/Adventure%20of%20a%20Lifetime
