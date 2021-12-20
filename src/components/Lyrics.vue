@@ -82,18 +82,18 @@ export default {
     overflow-x: auto;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 35%;
 }
 
 .modal-header,
 .modal-footer {
-    padding: 15px;
+    padding: 35px;
     display: flex;
 }
 
 .modal-header {
     position: relative;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
     color: #4AAE9B;
     justify-content: space-between;
 }
@@ -106,19 +106,19 @@ export default {
 .modal-body {
     position: relative;
     padding: 20px 10px;
+    letter-spacing: 1px;
     overflow: scroll;
 }
 
 .Lbtn-close {
     position: absolute;
-    top: 25px;
-    right: 1%;
+    top: -5px;
+    right: 2%;
     border: none;
-    font-size: 40px;
-    padding: 10px;
+    font-size: 30px;
     cursor: pointer;
     font-weight: bold;
-    color: #4AAE9B;
+    color: dimgray;
     background: transparent;
     z-index: 1;
 }

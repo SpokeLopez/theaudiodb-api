@@ -72,13 +72,13 @@
 
   .modal-header,
   .modal-footer {
-    padding: 15px;
+    padding: 20px;
     display: flex;
   }
 
   .modal-header {
     position: relative;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
     color: #4AAE9B;
     justify-content: space-between;
   }
