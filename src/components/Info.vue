@@ -6,7 +6,7 @@
                 <!-- Image for mobile view -->
                 <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" :style="{'background-image': 'url('+image+')'}"></div>
                 <div class="form-inline flex flex-wrap content-between">
-                    <input class="font-bold pt-8 lg:pt-0 justify-center mb-0 w-3/4 rounded shadow" v-model="querry" placeholder="Busqueda" />
+                    <input class="font-bold pt-8 lg:pt-0 lg:pl-6 justify-center mb-0 w-3/4 rounded shadow" v-model="querry" placeholder="Busqueda" />
                     <button @click.prevent="newSearch()" class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-1/4">
                      Buscar
                 </button>
@@ -17,13 +17,11 @@
     
                 <div class="form-inline flex flex-wrap content-between">
                     <span class="w-2/4 pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"/></svg> Bibliografia</span>
-                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-2 py-2 px-4 border border-gray-400 rounded shadow w-2/4" @click="showModal">Buscar Letra</button>
+                    <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-2 py-2 px-4 border border-gray-400 rounded shadow w-2/4" @click="showModal">Ver Letra</button>
                     <Lyrics v-show="isModalVisible" @close="closeModal" :name="querry" ref="Lyrics" :songs="songs" />
                 </div>
-    
                 <p class="description pt-8 text-sm"> {{description | formateo}}</p>
             </div>
-    
         </div>
     
         <!--Img Col-->
