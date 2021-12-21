@@ -37,5 +37,6 @@ Fuentes de las que me apoye para crear el proyecto
 * [lyricsovh](https://lyricsovh.docs.apiary.io/#)
 * [Creando un modal con vue](https://www.digitalocean.com/community/tutorials/vuejs-vue-modal-component)
 * [Documentacion Tailwindcss](https://tailwindcss.com/docs/installation)
++ [Card component Tailwindcss](https://www.tailwindtoolbox.com/templates/profile-card)
 * [Curso de componentes en vue](https://escuelavue.es/series/componentes-en-vue/)
 * [Netlifly](https://www.netlify.com/)
